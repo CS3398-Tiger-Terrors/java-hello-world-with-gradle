@@ -36,7 +36,7 @@ public class TestGreeter {
    {
       g.setName("Nick");
       assertEquals(g.getName(),"Nick");
-      assertsEqual(g.sayHello(),"Hello Nick!");
+      assertEquals(g.sayHello(),"Hello Nick!");
    }
    @Test
    public void newestnwGreeterFail()
