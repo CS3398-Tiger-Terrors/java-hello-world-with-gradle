@@ -38,11 +38,4 @@ public class TestGreeter {
       assertEquals(g.getName(),"Nick");
       assertEquals(g.sayHello(),"Hello Nick!");
    }
-   @Test
-   public void newestnwGreeterFail()
-   {
-      g.setName("Not Nick");
-      assertEquals(g.getName(),"Nick");
-      assertsEqual(g.sayHello(),"Hello Nick!");
-   }
 }
