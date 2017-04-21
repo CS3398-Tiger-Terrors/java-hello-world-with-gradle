@@ -38,4 +38,12 @@ public class TestGreeter {
       g.setName("LeoTest");
       assertEquals(g.getName(), "LeoTest");
    }
+
+   @Test
+   public void newtestLeoGreeterFail()
+   {
+      // Failed build      
+      g.setName("thisBuildWillFail");
+      assertEquals(g.getName(), "LeoTest");
+   }
 }
