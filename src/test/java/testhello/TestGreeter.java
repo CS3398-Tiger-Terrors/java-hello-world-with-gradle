@@ -34,6 +34,8 @@ public class TestGreeter {
    @Test
    public void newtestLeoGreeterPass()
    {
-      assertEquals(g.sayHello(), "Leo was here!");
+      // Successful build
+      g.setName("LeoTest");
+      assertEquals(g.getName(), "LeoTest");
    }
 }
