@@ -30,4 +30,18 @@ public class TestGreeter {
       assertEquals(g.getName(),"World");
       assertEquals(g.sayHello(),"Hello World!");
    }
+   
+   @Test
+   public void CodyPassTest() //Test will pass
+   {
+	   g.setName("CodyPass");
+	   assertEquals(g.getName(),"CodyPass");
+   }
+   
+   @Test
+   public void CodyFailTest() //Test will FAIL
+   {
+	   g.setName("CodyFail");
+	   assertEquals(g.sayHello(),"Hello Cruel, Unkind World!");
+   }
 }
