@@ -39,11 +39,11 @@ public class TestGreeter {
        assertEquals(g.getName(), "DuncanTest");
    }
 
-   //@Test
-   //public void newTestDuncanGreeterFail()
-   //{
+   @Test
+   public void newTestDuncanGreeterFail()
+   {
        // Failed Build
-       //g.setName("This build is a failure");
-       //assertEquals(g.getName(), "DuncanTest");
-   //}
+       g.setName("This build is a failure");
+       assertEquals(g.getName(), "DuncanTest");
+   }
 }
